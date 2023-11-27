@@ -10,7 +10,7 @@ spring:
         git:
           uri: https://github.com/eGovFramework/config-server
           username: '{cipher}ba3...'
-          password: '{cipher}26a...'
+          password: '{cipher}26a...' # insert personal access token  !!
           search-paths: config # repository 폴더 경로
           default-label: main  # main branch
           ignore-local-ssh-settings: true

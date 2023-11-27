@@ -18,11 +18,11 @@ ext {
 }
 
 dependencies {
-    implementation 'org.springframework.cloud:spring-cloud-config-server'
-    implementation 'org.springframework.cloud:spring-cloud-config-monitor'    // webhook
-    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+    implementation 'org.springframework.cloud:spring-cloud-config-server' // Spring cloud config server
+    implementation 'org.springframework.cloud:spring-cloud-config-monitor'
+    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'  // Spring cloud config- bootstrap.yml
     implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'  // bus
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'    // bus
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'    // refresh
     implementation 'org.apache.tomcat:tomcat-annotations-api:9.0.73'
     implementation 'org.apache.tomcat.embed:tomcat-embed-core:9.0.73'
     implementation 'org.apache.tomcat.embed:tomcat-embed-el:9.0.73'
